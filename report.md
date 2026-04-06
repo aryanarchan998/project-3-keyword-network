@@ -10,7 +10,7 @@ This project explores keyword co-occurrence patterns in scientific publications 
 
 The dataset used in this project consists of academic articles, each containing up to 12 keywords. First step was to extract only the keyword columns and converting all keywords to lowercase. The rows that had no keyword data were removed to ensure meaningful analysis. 
 
-The next task was to construct a weighted adjacency matrix. In the matrix both rows and columns represent unique keywords, and each cell records how many times two keywords appear together in the same article. The matrix is symmetrical because the cooccurrence relationships go both ways (bi-directional).
+The next task was to construct a weighted adjacency matrix. In the matrix both rows and columns represent unique keywords, and each cell records how many times two keywords appear together in the same article. The matrix is symmetrical because the co-occurrence relationships go both ways (bi-directional).
 
 Now the adjacency matrix was then converted into a weighted network using network. The nodes represent keywords, edges represent the relationship and the edge weights represent how frequently two keyword appear together. The main two key metrics degree and strength were calculated. The degree being the number of unique keywords connected to a keyword and the strength being total weight of all connections for a keyword. 
 
