@@ -70,5 +70,7 @@ The dataset used in this project contains academic publication data. Each row re
 ##Key Findings 
 - Organizational behavior is the most central keyword, with the highest degree and strength
 - Strong keyword pairs (e.g., organizational behavior and organizational effectiveness) indicate common research themes  
-- The scatter plot shows a positive relationship between degree and strength, meaning highly connected keywords also tend to co-occur more frequently  
+- The scatter plot shows a positive relationship between degree and strength, meaning highly connected keywords also tend to co-occur more frequently
+
+Key Note: I orginally did this project in Google Colab and then took the conversion over to Github. Filepath had to modify from keyword.csv to data/keyword.csv
 
